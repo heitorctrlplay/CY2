@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+img[src="imagens/noFilter.png"] {
+    width: 100px;
+}
+img[src="imagens/figura.png"] {
+    width: 50px
+}

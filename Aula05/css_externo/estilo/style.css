@@ -1,0 +1,35 @@
+@charset "UTF-8" ;
+
+
+h1 {
+    background-color: aquamarine;
+    color: rgb(61, 43, 226);
+}
+h2 {
+    background-color: rgb(185, 245, 96);
+    color: darkgreen;
+}
+p {
+    background-color: rgb(187, 153, 255);
+    color: rgb(148, 1, 136);
+}
+section h1{
+background-color: rgb(218, 70, 70);
+color: darkred;
+}
+section h2{
+    background-color: rgb(218, 70, 70);
+    color: darkred;}
+section p {
+    background-color: chocolate;
+    color: gold;
+}
+section.destaque h1{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+p#destaque2 {
+    font-size: 10px;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body {
+    background-color: cornflowerblue;
+}
+a {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.475);
+}
+a:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+p::first-letter {
+    font-size: 3em;
+}

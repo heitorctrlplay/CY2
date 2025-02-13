@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Flex</title>
+    <style>
+        .pai {
+            background-color: lightcoral;
+            height: 400px;
+            width: 100vw;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .filho {
+            background-color: lightgreen;
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+        <div class="filho"></div>
+    </div>
+</body>
+</html>
